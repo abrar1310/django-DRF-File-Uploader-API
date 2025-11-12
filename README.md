@@ -1,18 +1,18 @@
-DRF File Uploader API
+# DRF File Uploader API
 
 A simple Django REST Framework API to upload images and PDFs with validation and metadata storage.
 
-Features
+## Features
 
-Upload images (.jpg, .jpeg, .png, .webp) and PDFs
-Validate size (max 10MB), extension, and MIME type
-Store metadata: original name, extension, MIME, size, SHA256, is_image, created_at
-List files with pagination
-Retrieve single file details
-Authentication required for uploads
-Rate limiting for security
+- Upload images (`.jpg, .jpeg, .png, .webp`) and PDFs
+- Validate size (max 10MB), extension, and MIME type
+- Store metadata: original name, extension, MIME, size, SHA256, is_image, created_at
+- List files with pagination
+- Retrieve single file details
+- Authentication required for uploads
+- Rate limiting for security
 
-Setup
+## Setup
 git clone <repo-url>
 cd <repo-folder>
 python -m venv venv
@@ -20,6 +20,7 @@ source venv/bin/activate  # Windows: venv\Scripts\activate
 pip install -r requirements.txt
 python manage.py migrate
 python manage.py runserver
+
 
 
 Validation:

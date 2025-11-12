@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# Environment
+.env/
+venv/
+ENV/
+
+# Django
+*.sqlite3
+db.sqlite3
+/media/
+*.log
+
+# VSCode
+.vscode/
+
+# PyCharm
+.idea/
+
+# macOS
+.DS_Store
+
+# Byte-compiled / distribution / packaging
+*.egg-info/
+dist/
+build/
+
+# Others
+*.swp
+*.tmp
